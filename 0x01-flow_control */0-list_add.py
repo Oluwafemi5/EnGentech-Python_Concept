@@ -8,9 +8,10 @@ print('Lst2 =' , Lst2)
 
 Lst2.pop(0)
 
-Lst1.extend(Lst2)
+Appended = Lst1 + Lst2
 
-print('Appended List =' ,Lst1)
+
+print('Appended List =' ,Appended)
 
 def list_add():
 
